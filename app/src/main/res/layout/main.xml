@@ -1,0 +1,354 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dashboard"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#03A9F4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_gravity="center"
+        android:layout_weight="3">
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/messages" />
+
+            <TextView
+                android:id="@+id/messages"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/layoutMainMessages"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/contacts" />
+
+            <TextView
+                android:id="@+id/contacts"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/layoutMainContacts"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_gravity="center"
+        android:layout_weight="3">
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/player" />
+
+            <TextView
+                android:id="@+id/music"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/layoutMainMusic"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/browser" />
+
+            <TextView
+                android:id="@+id/browser"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/layoutMainBrowser"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_gravity="center"
+        android:layout_weight="3">
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/alarms" />
+
+            <TextView
+                android:id="@+id/alarms"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/layoutMainAlarms"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/voicerecorder" />
+
+            <TextView
+                android:id="@+id/voicerecorder"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/mainVoiceRecorder"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_gravity="center"
+        android:layout_weight="3">
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/applications" />
+
+            <TextView
+                android:id="@+id/apps"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/mainApplications"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/settings" />
+
+            <TextView
+                android:id="@+id/settings"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/layoutMainSettings"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_gravity="center"
+        android:layout_weight="3">
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/status" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/layoutMainStatus"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5" />
+
+</LinearLayout>
